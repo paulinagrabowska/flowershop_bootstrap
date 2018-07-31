@@ -31,7 +31,7 @@ main {
 // sekcja opinie klientów 
 
     #testimonials {
-        background: url('../../img/testimonials-background.jpg') center/cover no-repeat;
+        background: url("../img/testimonials-background.jpg") center/cover no-repeat;
         background-blend-mode: lighten;
         width: 100%;
         position: relative;
@@ -91,7 +91,9 @@ main {
                 width: 100%;
             }
         
-        }                  
+        } 
+         .row {
+            padding-bottom: 3rem; }                 
 }
 .container-fluid {
     padding: 0;

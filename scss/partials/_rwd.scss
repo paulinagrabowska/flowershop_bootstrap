@@ -10,6 +10,15 @@
     }
 }
 
+@media all and (max-width: 463px) {
+
+      .logo h1 {
+        font-size: 9rem; }
+      .logo p {
+        font-size: 3rem; } 
+
+    }
+
 @media all and(max-width: 991px) {
     #about_us {
             p {
