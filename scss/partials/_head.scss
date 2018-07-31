@@ -47,3 +47,17 @@ body {
         }
     }
    }
+
+   .btn {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    padding: .8rem;
+    border: .16rem solid white;
+    border-radius: 1.3em;
+    font-weight: bold;
+    transition: all .5s ease;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.301);
+        color: #2ECA74;
+    }
+   }

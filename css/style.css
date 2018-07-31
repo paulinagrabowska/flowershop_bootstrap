@@ -36,6 +36,18 @@ body {
       transform: scale(1.2);
       opacity: 1; }
 
+.btn {
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+  padding: .8rem;
+  border: .16rem solid white;
+  border-radius: 1.3em;
+  font-weight: bold;
+  transition: all .5s ease; }
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.301);
+    color: #2ECA74; }
+
 header {
   background-image: url(../../img/head.jpg);
   background-repeat: no-repeat;
@@ -175,18 +187,8 @@ main h2 {
   #contact form {
     font-size: 1.2rem; }
     #contact form .btn {
-      font-size: 1.2rem;
-      letter-spacing: 0.3rem;
-      padding: .8rem;
-      border: .16rem solid white;
-      border-radius: 1.3em;
-      font-weight: bold;
-      transition: all .5s ease;
       margin: 0 auto;
       width: 100%; }
-    #contact form .btn:hover {
-      background-color: rgba(255, 255, 255, 0.301);
-      color: #2ECA74; }
 
 .container-fluid {
   padding: 0; }
@@ -197,6 +199,20 @@ main h2 {
   overflow: hidden; }
   .iframe iframe {
     width: 100%; }
+
+.filler {
+  width: 100%;
+  display: block;
+  background-image: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+  padding: 2%; }
+  .filler p {
+    color: white;
+    font-style: italic;
+    font-size: 2.8rem;
+    font-family: 'Clicker Script', cursive; }
+  .filler .btn {
+    font-size: 1.4rem;
+    padding: 1.1rem; }
 
 footer {
   font-size: 1.3rem;
