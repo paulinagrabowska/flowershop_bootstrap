@@ -13,19 +13,10 @@ main {
     padding: 1rem;
     margin: 1%;
     .img_about {
-        position: relative;
-        border: .3rem solid white;
-        overflow: hidden;
-        outline: .6rem solid rgba(121, 243, 176, 0.63);
-        img {
-            transition: all .6s ease;
-            max-width: 100%;
-            transform: scale(1.1);
-
-            &:hover {
-                transform: scale(1.2); //zoom
-                opacity: 1;
-            }
+        border: .4rem solid rgb(255, 255, 255);
+         outline: .6rem solid rgba(121, 243, 176, 0.63);   
+         max-height: 50rem;  
+            
         }
        }
        p {
@@ -35,7 +26,3 @@ main {
         padding-left: 2rem;  
     }
      
-}
-
-
-

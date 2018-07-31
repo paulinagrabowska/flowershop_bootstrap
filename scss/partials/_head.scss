@@ -16,3 +16,34 @@ body {
     width: 100%;
     background-color: white;
 }
+
+.rounded-circle {
+    border: .8rem solid rgba(46, 202, 116, 0.692);
+    border-radius: 50%;
+    transform: scale(0.6);
+    opacity: .7;
+    transition: all .5s ease;
+
+    &:hover {
+        transform: scale(0.7);
+        opacity: 1;
+    }
+
+
+}
+
+.zoom_container {
+    position: relative;
+    overflow: hidden;
+    .zoom_img {
+        transition: all .6s ease;
+        max-width: 100%;
+        transform: scale(1.1);
+        opacity: .6;
+
+        &:hover {
+            transform: scale(1.2); //zoom
+            opacity: 1;
+        }
+    }
+   }
