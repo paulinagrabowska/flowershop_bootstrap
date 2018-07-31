@@ -119,15 +119,90 @@
         <div class="filler">
             
         </div>
-        <!-- sekcja "opinie" -->
+        <!-- sekcja "opinie - bootrstrap carousel" -->
         <section id="testimonials">
-            
+                <h2>Opinie klientów</h2>
+        <div class="container text-center rev">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="rounded-circle p-2" src="img/t1.jpg" alt="First slide">
+                        <h3>Anna Kowalska</h3>
+                        <p><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto architecto illo, temporibus, accusamus corrupti distinctio vitae quaerat ratione officia soluta vero consectetur alias perferendis aliquam libero, eum ad dicta."</em></p>
+                        <p><strong>Kraków</strong></p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle p-2" src="img/t3.jpg" alt="Second slide">
+                        <h3>Jacek Nowak</h3>
+                        <p><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto architecto illo, temporibus, accusamus corrupti distinctio vitae quaerat ratione officia soluta vero consectetur alias perferendis aliquam libero, eum ad dicta."</em></p>
+                        <p><strong>Warszawa</strong></p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle p-2" src="img/t2.jpg" alt="Third slide">
+                        <h3>Julia Czarnecka</h3>
+                        <p><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto architecto illo, temporibus, accusamus corrupti distinctio vitae quaerat ratione officia soluta vero consectetur alias perferendis aliquam libero, eum ad dicta."</em></p>
+                        <p><strong>Częstochowa</strong></p>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle p-2" src="img/t4.jpg" alt="Fourth slide">
+                        <h3>Tomasz Wojczak</h3>
+                        <p><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto architecto illo, temporibus, accusamus corrupti distinctio vitae quaerat ratione officia soluta vero consectetur alias perferendis aliquam libero, eum ad dicta."</em></p>
+                        <p><strong>Tarnów</strong></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         </section>
         <!-- sekcja "kontakt" -->
         <section id="contact">
-            
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Kontakt</h2>
+                    </div>
+                    <div class="contact_data col-lg-6">
+                        <h3>Dane kontaktowe</h3>
+                        <p> <i class="fas fa-map-marker"></i> ul. Różana 10, 30-001 Kraków </p>
+                        <p> <i class="fas fa-phone"></i> 674 370 921 </p>
+                        <p> <i class="far fa-envelope"></i> kontakt@gardenia.pl </p>
+                        <p> <i class="fab fa-facebook"></i> gardenia_kraków </p>
+                        <p> <i class="fab fa-instagram"></i> gardenia_kraków </p>
+                    </div> 
+                    <div class="col-lg-6">
+                        <h3>Napisz do nas</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Imię</label>
+                                <input class="form-control" id="name" type="text" name="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control" id="email" type="email" name="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Wiadomość">Message</label>
+                                <textarea class="form-control" id="message" name="Message"></textarea>
+                            </div>
+                                <input class="btn btn-outline-light" type="submit" value="Submit" />
+                        </div>
+                        </form>
+                </div>
+            </div>
         </section>
-
+        <!-- mapa google -->
+        <section id="Location">
+            <div class="container-fluid">
+                <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.8865786147257!2d19.925650315716986!3d50.05095597942226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b71bc017eb7%3A0x8082f42c142aee9d!2zUsOzxbxhbmEgMTAsIDMwLTAwMSBLcmFrw7N3!5e0!3m2!1spl!2spl!4v1533056244718" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div> 
+            </div>
+         </section>
     </main>
     <!-- stopka -->
     <footer>

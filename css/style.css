@@ -126,11 +126,76 @@ main h2 {
     border: 0.4rem solid white;
     outline: 0.6rem solid rgba(121, 243, 176, 0.63);
     max-height: 50rem; }
+  #about_us p {
+    font-size: 1.4rem;
+    color: grey;
+    text-align: justify;
+    padding-left: 2rem; }
 
-p {
-  font-size: 1.4rem;
-  color: grey;
-  text-align: justify;
-  padding-left: 2rem; }
+#testimonials {
+  background: url("../../img/testimonials-background.jpg") center/cover no-repeat;
+  background-blend-mode: lighten;
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  padding: 2%; }
+  #testimonials .carousel-item h3 {
+    color: #33ac6a;
+    padding: 1rem;
+    font-family: 'Clicker Script', cursive;
+    font-size: 3.5rem; }
+
+#contact {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white; }
+  #contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+    opacity: 1; }
+  #contact h3 {
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    font-weight: bolder;
+    padding: 1.5rem;
+    text-transform: uppercase; }
+  #contact h2 {
+    color: white; }
+  #contact .contact_data {
+    letter-spacing: .3rem; }
+    #contact .contact_data p {
+      font-size: 1.4rem;
+      line-height: 2.5rem; }
+  #contact form {
+    font-size: 1.2rem; }
+    #contact form .btn {
+      font-size: 1.2rem;
+      letter-spacing: 0.3rem;
+      padding: .8rem;
+      border: .16rem solid white;
+      border-radius: 1.3em;
+      font-weight: bold;
+      transition: all .5s ease;
+      margin: 0 auto;
+      width: 100%; }
+    #contact form .btn:hover {
+      background-color: rgba(255, 255, 255, 0.301);
+      color: #2ECA74; }
+
+.container-fluid {
+  padding: 0; }
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .iframe iframe {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
