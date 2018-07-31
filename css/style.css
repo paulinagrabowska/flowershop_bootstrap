@@ -138,6 +138,8 @@ main h2 {
     border: 0.4rem solid white;
     outline: 0.6rem solid rgba(121, 243, 176, 0.63);
     max-height: 50rem; }
+    #about_us .img_about img.about {
+      opacity: .8; }
   #about_us p {
     font-size: 1.4rem;
     color: grey;
@@ -229,5 +231,16 @@ footer {
     footer i:hover {
       opacity: 1;
       transform: scale(1.3); }
+
+@media all and (max-width: 760px) {
+  .logo {
+    text-align: center; }
+    .logo h1 {
+      font-size: 15rem; }
+    .logo p {
+      font-size: 3.5rem; } }
+@media all and (max-width: 991px) {
+  #about_us p {
+    padding-top: 4rem; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,10 @@ main {
     .img_about {
         border: .4rem solid rgb(255, 255, 255);
          outline: .6rem solid rgba(121, 243, 176, 0.63);   
-         max-height: 50rem;      
+         max-height: 50rem; 
+         img.about {
+             opacity: .8;
+         }     
         }
         p {
             font-size: 1.4rem;
@@ -109,7 +112,6 @@ main {
         display: block;
         background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
         padding: 2%;
-
         p {
             color: rgb(255, 255, 255);
             font-style: italic;
@@ -124,9 +126,3 @@ main {
         
     
     }
-    
-
-    
-
-    
-

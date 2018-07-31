@@ -1,0 +1,19 @@
+@media all and(max-width: 760px) {
+    .logo {
+        text-align: center;
+        h1 {
+            font-size: 15rem;
+        }
+        p {
+            font-size: 3.5rem;
+        }
+    }
+}
+
+@media all and(max-width: 991px) {
+    #about_us {
+            p {
+                padding-top: 4rem;
+            }
+           }
+}
