@@ -1,0 +1,110 @@
+header {
+    background-image: url("../../img/head.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 90rem;
+    width: 100%;
+    position: relative;
+    nav {
+        
+            font-size: 1.6rem;
+            letter-spacing: 0.3rem;
+            width: 100%;
+            color: white;
+            background-color: rgba(255, 255, 255, .2);
+
+            a.navbar-brand {
+                color: white;
+                font-size: 2rem;
+                color: #DC4C65;
+                font-weight: bold;
+            }
+
+            .navbar-collapse {
+                .navbar-nav {
+                    a.nav-item {
+                        color: rgba(255, 255, 255, 0.637);
+                        text-transform: uppercase;
+                        transition: color .5s ease;
+                        padding: 1rem;
+                        padding-right: 2rem;
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        
+        i {
+            margin: .7rem;
+            transition: all .4s;
+            font-size: 1.8rem;
+            color: #DC4C65;
+            transition: color .5s ease;
+         }
+         
+         i:hover {
+            color: rgba(245, 245, 245, 0.596);
+         }
+    }
+}
+
+
+.logo {
+    margin: 6%;
+    animation: logo_animation .6s forwards 0s ease;
+    h1 {
+        font-size: 20rem;
+        font-weight: 700;
+        color: white;
+        font-family: 'Clicker Script', cursive;
+    }
+
+    p {
+        font-size: 3.5rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: .6rem;
+    }
+}
+
+
+.tulip {
+    position: absolute;
+    width: 55%;
+    right: 5%;
+    bottom: 60px;
+    animation: tulip_animation 1s forwards 0s ease;
+    
+    }
+
+/*Animacje*/
+
+@keyframes logo_animation{  //animacja dla logo
+   0%{
+       transform: rotate(0) scale(1) translateX(-800px);
+       }
+   100%{
+       transform: rotate(0) scale(1) translateX(0);
+       opacity: 1;
+       }
+}
+
+@keyframes tulip_animation{ // animacja dla tulipana
+   0%{
+       transform: rotate(0) scale(1);
+       opacity: 0.1;
+       }
+   75%{
+       transform: rotate(0) scale(1);
+       opacity: 0.6;
+       }
+   100%{
+       transform: rotate(0) scale(1);
+       opacity: 1;
+       }
+}
+
