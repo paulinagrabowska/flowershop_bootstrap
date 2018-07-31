@@ -1,0 +1,41 @@
+main {
+    h2 {
+        font-size: 5rem;
+        font-weight: 200;
+        color: #DC4C65; 
+        padding: 4rem;
+        text-align: center;
+        letter-spacing: .2rem;
+    }
+}
+// sekcja o nas
+#about_us {
+    padding: 1rem;
+    margin: 1%;
+    .img_about {
+        position: relative;
+        border: .3rem solid white;
+        overflow: hidden;
+        outline: .6rem solid rgba(121, 243, 176, 0.63);
+        img {
+            transition: all .6s ease;
+            max-width: 100%;
+            transform: scale(1.1);
+
+            &:hover {
+                transform: scale(1.2); //zoom
+                opacity: 1;
+            }
+        }
+       }
+       p {
+        font-size: 1.4rem;
+        color: grey;
+        text-align: justify;
+        padding-left: 2rem;  
+    }
+     
+}
+
+
+
